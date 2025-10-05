@@ -1,3 +1,6 @@
+// Importa as variáveis de ambiente
+import 'dotenv/config';
+
 // Importa o módulo Express para criar a aplicação web
 import express from "express";
 import routes from "./src/routes/postsRoutes.js";
